@@ -1,28 +1,30 @@
-body{
-    background-image: url(./assets/backgoround-image.jpg);
-    background-size:cover;
+*{
+    margin: 0;
+    padding: 0;
+   
 }
-<<<<<<< HEAD
 .nav-bar{
     background-color: greenyellow;
     height: 4rem;
-    width:80rem;
+    width:100%;
+
 }
 .middle{
     background-color: aqua;
-    width:80rem;
-    height:52rem;;
+    width:100%;
+    height:52rem;
 }
 .bottom{
     background-color: bisque;
-    width:80rem;
+    width:100%;
     height: 35rem;
+}
 =======
-.title-bar{
+/* .title-bar{
     background-color: blue;
     width:100%;
-    height:100px;
-    display: flex;
+    height:100px; */
+    /* display: flex;
 }
 .navigation-bar{
     background-color: red;
@@ -36,4 +38,4 @@ body{
      height:800px;
      display: flex;
 >>>>>>> 8f490367e3e742a0172383731627db0d2f60dc8c
-}
+} */
