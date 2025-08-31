@@ -2,3 +2,18 @@ body{
     background-image: url(./assets/backgoround-image.jpg);
     background-size:cover;
 }
+.nav-bar{
+    background-color: greenyellow;
+    height: 4rem;
+    width:80rem;
+}
+.middle{
+    background-color: aqua;
+    width:80rem;
+    height:52rem;;
+}
+.bottom{
+    background-color: bisque;
+    width:80rem;
+    height: 35rem;
+}
