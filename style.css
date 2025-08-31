@@ -2,3 +2,21 @@ body{
     background-image: url(./assets/backgoround-image.jpg);
     background-size:cover;
 }
+.title-bar{
+    background-color: blue;
+    width:100%;
+    height:100px;
+    display: flex;
+}
+.navigation-bar{
+    background-color: red;
+     width:100%;
+     height:100px;
+     display: flex;
+}
+.content-box{
+    background-color: green;
+     width:100%;
+     height:800px;
+     display: flex;
+}
