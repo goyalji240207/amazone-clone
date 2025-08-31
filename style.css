@@ -1,4 +1,4 @@
 body{
     background-image: url(./assets/backgoround-image.jpg);
-    background-size: contain;
+    background-size:cover;
 }
