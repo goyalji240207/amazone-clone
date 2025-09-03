@@ -6,6 +6,9 @@
     <link rel="icon" href="./assets/amazone-logo.png">
     <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -18,39 +21,63 @@
       </div>
       <div class="address">
         
-         <div>
+         <div class="add-1">
             <span>Deliver to xxxxx</span>
          </div>
          
-         <div>
+         <div class="add-2">
           <i class="fa-solid fa-location-dot"></i>
-            <span>Upadate address</span>
+            <span>Update address</span>
          </div>
       </div>
       <div class="search-bar">
          <form>
-          <input type="text" placeholder="Search Amazon.in">
+          <select name="all" id="all">
+            <option>All</option>
+            <option>Alexa Skills</option>
+            <option>Amazon Devices</option>
+            <option>Amazon Fashion</option>
+            <option>Baby</option>
+            <option>Beauty</option>
+            <option>Books</option>
+            <option>Electronics</option>
+            <option>Deals</option>
+            <option>Apps & Games</option>
+            <option>Furniture</option>
+            <option>Garden & Outdoors</option>
+
+          </select>
+          <input class="main-search-bar" type="text" placeholder="Search Amazon.in">
+          <div class="search-icon">
+           <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+         
          </form>
       </div>
       <div class="language">
         <img src="./assets/india-flag.png">
-        <spin>EN</spin>
+        <span>EN </span>
+         <i class="fa-solid fa-caret-down"></i>
       </div>
       <div class="account">
-        <div>
+        <div id="acc-1" >
           <span>Hello, Sign in.</span>
         </div>
-        <div>Account & list</div>
+        <div id="acc-2">Account & list
+           <i class="fa-solid fa-caret-down"></i>
+        </div>
       </div>
       <div class="returns">
-        <div>
+        <div id="ret-1">
           <span>Returns</span>
+          
         </div>
-        <div>&orders</div>
+        <div id="ret-2">&orders</div>
+       
       </div>
       <div class="cart">
-       <i class="fa-solid fa-cart-arrow-down"></i>
-        <span>cart</span>
+       <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart</span>
       </div>
        </div>
        <div class="lower-nav-bar">
