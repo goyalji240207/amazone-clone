@@ -161,7 +161,7 @@ form{
 }
 .left-right-icon{
     display:flex;
-    height:245px;
+    height:250px;
     /* background-color: blue; */
     justify-content: space-between;
     align-items: center;
@@ -171,4 +171,66 @@ form{
 .left-right-icon i{
     font-size: 3rem;
     /* font-weight: 100; */
+}
+.content{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height:400px;
+    width:300px;
+    background-color: #fff;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.box img{
+    height:150px;
+}
+#box-4{
+   flex-wrap:wrap;
+   background: none;
+   width:350px;
+   padding-top: 0px;
+   margin-right: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+}
+#box-4-1{
+    display: flex;
+    background-color: #fff;
+    height: 106px;
+    padding: 25px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 800;
+}
+#box-4-1 img{
+    height:100px;
+}
+#box-4-2{
+   width:300px;
+   background-color: #fff;
+    height: 260px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    line-height:21px;
+    
+}
+.shop-button{
+    background-color: rgb(255, 165, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px ;
+    
+}
+#box-4-2 div{
+    margin-bottom: 20px;
+}
+#box-4-2 button{
+    margin-top:5px;
 }
