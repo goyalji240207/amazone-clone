@@ -90,6 +90,10 @@ form{
     display: flex;
     flex-wrap: wrap;
 }
+.add-icon{
+    padding-top:0.8rem;
+    margin-right: 5px;
+}
 .lower-nav-bar{
     background-color: #0f1111;
 }
