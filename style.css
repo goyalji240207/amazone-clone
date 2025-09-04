@@ -15,14 +15,14 @@
 .middle{
     /* background-color: aqua; */
     width:100%;
-    height:52rem;
+    height:100rem;
     background-image: url("./assets/backgoround-image.jpg");
     background-size: contain;
 }
 .bottom{
     background-color: bisque;
     width:100%;
-    height: 35rem;
+    height: 30rem;
 }
 img{
     height:3rem;
@@ -233,4 +233,132 @@ form{
 }
 #box-4-2 button{
     margin-top:5px;
+}
+.big-box-1{
+    background-color: #fff;
+    height: 285px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:26px;
+    
+}
+.big-box-1 img{
+    height:200px;
+    width:200px;
+}
+.big-box-2{
+    background-color: #fff;
+    height: 285px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:26px;
+    margin-top:0px;
+    
+}
+.big-box-2 img{
+    height:200px;
+    width:200px;
+}
+.bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top{
+    background-color: rgb(52,72,103);
+    height:50px;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#fff;
+}
+.bot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(38,48,62);
+    color:#fff;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+.f-1{
+    height:500px;
+    width:150px;
+    padding-top: 50px;
+}
+.f-2{
+    height:500px;
+    width:100px;
+     padding-top: 50px;
+}
+.f-3{
+    height:500px;
+    width:150px;
+     padding-top: 50px;
+}
+.f-4{
+    height:500px;
+    width:140px;
+     padding-top: 50px;
+}
+.f-1 a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    line-height:30px;
+}
+.f-2 a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+       line-height:30px;
+}
+.f-3 a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+       line-height:30px;
+}
+.f-4 a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+       line-height:30px;
+}
+.f-1 div{
+    margin-bottom:10px;
+    font-weight: 800;
+}
+.f-2 div{
+    margin-bottom:10px;
+     font-weight: 800;
+}
+.f-3 div{
+    margin-bottom:10px;
+     font-weight: 800;
+}
+.f-4 div{
+    margin-bottom:10px;
+     font-weight: 800;
+}
+.bot-2{
+    display: flex;
+    justify-content: center;
+    background-color: #131921;
+    padding: 40px 0px 100px 0px;
+}
+#india{
+    border: 5px black;
+    color:#fff;
+}
+.bot-2 div{
+    margin-right: 30px;
 }
