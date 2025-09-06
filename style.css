@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -6,28 +7,43 @@
    
 }
 .nav-bar{
-    background-color: greenyellow;
+    
     /* height: 7rem; */
     width:100%;
     /* display:flex; */
 
 }
-.middle{
-    /* background-color: aqua; */
+/* .middle{
+    background-color: aqua;
     width:100%;
     height:100rem;
     background-image: url("./assets/backgoround-image.jpg");
     background-size: contain;
-    /* background-attachment: fixed; */
-}
+     background-attachment: relative; 
+} */
+ .image1{
+     width:100%;
+    height:100rem;
+    background-image: url("./assets/backgoround-image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ .image2{
+   background-color: #ccc;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
+   
+ }
+
 .bottom{
     background-color: bisque;
     width:100%;
     height: 30rem;
 }
-img{
+.tag img{
     height:3rem;
-    width:8rem;
+    width:10rem;
 }
 .upper-nav-bar{
     display:flex;
@@ -37,10 +53,12 @@ img{
     width:100%;
     height:3.1rem;
     padding-top: 10px;
+   
 }
 .main-search-bar{
-    width:45rem;
-    /* height:2.5rem; */
+   width: 60%; 
+    min-width: 20rem; 
+    max-width: 35rem;
     
 }
 #all{
@@ -58,7 +76,7 @@ img{
     height:2.5rem;
 }
 .search-icon{
-    background-color: #fcdb79;
+    background-color: rgba(245, 173, 40, 0.932);
     width:3rem;
     /* height: 2.5rem; */
     border-top-right-radius:5px ;
@@ -85,15 +103,47 @@ form{
     margin-top: 20px;
     font-weight: 700;
 }
-.address{
+.nav-location {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem; /* moves it closer to logo */
+    cursor: pointer;
+    color: white;
+}
+
+.nav-location i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.location-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #ccc; /* lighter text */
+}
+
+.bold-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* .address{
     height:60px;
     width:139px;
     display: flex;
     flex-wrap: wrap;
 }
+.deliver{
+    margin-top: 20px;
+}
 .add-icon{
-    padding-top:0.8rem;
-    margin-right: 5px;
+   
+    margin-left: -30px;
 }
 .lower-nav-bar{
     background-color: #0f1111;
@@ -109,6 +159,21 @@ form{
 }
 .address{
     height:2.5rem;
+} */
+#fresh{
+    background-color: #232f3e;
+    color:white;
+    font-size: 1rem;
+    border-color: #232f3e;
+}
+ #prime-up{
+      background-color: #232f3e;
+    color:white;
+    font-size: 1rem;
+    border-color: #232f3e;
+ }
+.lower-nav-bar{
+    background-color: #0f1111;
 }
 #acc-1{
     margin-top: 6px;
@@ -177,7 +242,7 @@ form{
     font-size: 3rem;
     /* font-weight: 100; */
 }
-.content{
+/* .content{
     display: flex;
     width:100%;
     flex-wrap: wrap;
@@ -269,7 +334,9 @@ form{
 .big-box-2 img{
     height:200px;
     width:200px;
-}
+} */
+/* lets see this to keep or not */
+
 .bottom{
     display:flex;
     flex-direction: column;
@@ -366,4 +433,71 @@ form{
 }
 .bot-2 div{
     margin-right: 30px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;        /* allow wrapping */
+  gap: 20px;              /* space between cards */
+  justify-content: center; /* center all cards */
+  align-items: flex-start; /* align from top */
+  margin: 0;
+  max-width: 1200px;
+}
+
+.cards-container span {
+  display: inline-block;   /* make spans act like mini blocks */
+}
+
+/* Card styles (apply to all spans with card classes) */
+.card, .card3, .card4 {
+  background: #fff;
+  
+
+  width: 260px; /* fixed card width */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  vertical-align: top; /* align top when inline */
+}
+.card2{
+      background: #fff;
+
+
+  width: 400px; /* fixed card width */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  vertical-align: top; /* align top when inline */
+
+}
+
+.card h2, .card2 h2, .card3 h2, .card4 h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Each row of 2 images */
+.box1, .box2,
+.box3, .box4,
+.box5, .box6,
+.box7, .box8 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item img, .item2 img,
+.item3 img, .item4 img,
+.item5 img, .item6 img,
+.item7 img, .item8 img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card a, .card2 a, .card3 a, .card4 a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0073e6;
+  font-weight: bold;
+  text-decoration: none;
 }
